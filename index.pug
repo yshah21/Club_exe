@@ -1,0 +1,23 @@
+mixin speedometer
+	.speedometer.play
+		.dial
+			.bar
+				.half-circle.half-circle-bg
+				.half-circle.half-circle-speed.animated
+				.half-circle.half-circle-cover
+			.needle.animated
+				.inner
+					.top
+					.bottom
+//- Examples
+.wrapper
+	.percent-66
+		+speedometer
+	//- .percent-33.scaled-50
+	//- 	+speedometer
+	//- .percent-66-sm
+	//- 	+speedometer
+	//- .percent-33-static
+	//- 	+speedometer
+	//- .percent-66-static-sm
+	//- 	+speedometer

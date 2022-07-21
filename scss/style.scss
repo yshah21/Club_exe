@@ -1,0 +1,965 @@
+//Colours
+$green: #2ecc71;
+$red: #e74c3c;
+$blue: #3498db;
+$yellow: #f1c40f;
+$purple: #8e44ad;
+$turquoise: #1abc9c;
+
+// Reset and Layout Styles
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  color: $yellow;
+  font-size: 4rem;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+  @media screen and (max-width: 600px) {
+    font-size: 3rem;
+  }
+}
+
+p {
+  color: $yellow;
+  font-size: 1.2rem;
+  // text-transform: uppercase;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+// Basic Button Style
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: $red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+//BUTTON 1
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px $red inset;
+  }
+}
+
+//BUTTON 2
+.second {
+  border-radius: 3em;
+  border-color: $turquoise;
+  color: #fff;
+  background: {
+    image: linear-gradient(to right, 
+      transparentize($turquoise, 0.4),
+      transparentize($turquoise, 0.4) 5%,
+      $turquoise 5%, 
+      $turquoise 10%,
+      transparentize($turquoise, 0.4) 10%,
+      transparentize($turquoise, 0.4) 15%,
+      $turquoise 15%, 
+      $turquoise 20%,
+      transparentize($turquoise, 0.4) 20%,
+      transparentize($turquoise, 0.4) 25%,
+      $turquoise 25%, 
+      $turquoise 30%,
+      transparentize($turquoise, 0.4) 30%,
+      transparentize($turquoise, 0.4) 35%,
+      $turquoise 35%, 
+      $turquoise 40%,
+      transparentize($turquoise, 0.4) 40%,
+      transparentize($turquoise, 0.4) 45%,
+      $turquoise 45%, 
+      $turquoise 50%,
+      transparentize($turquoise, 0.4) 50%,
+      transparentize($turquoise, 0.4) 55%,
+      $turquoise 55%, 
+      $turquoise 60%,
+      transparentize($turquoise, 0.4) 60%,
+      transparentize($turquoise, 0.4) 65%,
+      $turquoise 65%, 
+      $turquoise 70%,
+      transparentize($turquoise, 0.4) 70%,
+      transparentize($turquoise, 0.4) 75%,
+      $turquoise 75%, 
+      $turquoise 80%,
+      transparentize($turquoise, 0.4) 80%,
+      transparentize($turquoise, 0.4) 85%,
+      $turquoise 85%, 
+      $turquoise 90%,
+      transparentize($turquoise, 0.4) 90%,
+      transparentize($turquoise, 0.4) 95%,
+      $turquoise 95%, 
+      $turquoise 100%);
+    position: 0 0;
+    size: 100%;
+  }
+  transition: background 300ms ease-in-out;
+  
+  &:hover {
+    background-position: 100px;
+  }
+}
+
+//BUTTON 3
+.third {
+  border-color: $blue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+  transition: all 150ms ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+  }
+}
+
+// BUTTON 4
+.fourth {
+  // background: $yellow;
+  border-color: $yellow;
+  color: #fff;
+  background: {
+    image: linear-gradient(45deg,$yellow 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: background 300ms ease-in-out;
+  
+  &:hover {
+    background-position: 0;
+  }
+}
+
+//BUTTON 5
+.fifth {
+  border-color: $purple;
+  // border: 0;
+  border-radius: 0;
+  color: $purple;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: $purple;
+    z-index: -1;
+    transition: width 150ms ease-in-out;
+  }
+  
+  &:hover {
+    color: #fff;
+    &:after {
+      width: 110%;
+    }
+  }
+}
+
+//BUTTON 6
+.sixth {
+  border-radius: 3em;
+  border-color: $green;
+  color: $green;
+  background: {
+      image: linear-gradient(to bottom, transparent 50%, $green 50%);
+      position: 0% 0%;
+      size: 210%;
+  }
+  transition: background 150ms ease-in-out, color 150ms ease-in-out;
+  
+  &:hover {
+    color: #fff;
+    background-position: 0 100%;
+  }
+}
+
+
+
+@function px-to-em($pixels, $base: 16) {
+  @return ($pixels / $base) * 1em;
+}
+
+$needle-height: 112px;
+$needle-top-height: 106px;
+$needle-width: 12px;
+$needle-color: #666;
+$needle-speed: 2s;
+$needle-easing: ease-out;
+$circle-radius: 95px;
+$circle-diameter: $circle-radius * 2;
+$circle-color-bg: #f3f6f9;
+$circle-color-bg: #e0f3fc;
+$circle-color-speed: #0590dd;
+$circle-color-cover: #fff;
+$dial-stroke-width: 30px;
+$start-pos: -180deg;
+$end-pos: $start-pos + 180deg;
+$end-pos-100: $end-pos;
+$end-pos-66: $start-pos + 180deg * 0.666;
+$end-pos-60: $start-pos + 180deg * 0.6;
+$end-pos-40: $start-pos + 180deg * 0.4;
+$end-pos-33: $start-pos + 180deg * 0.333;
+$end-pos-30: $start-pos + 180deg * 0.3;
+$end-pos-16: $start-pos + 180deg * 0.166;
+
+// List of possible percentages
+$percentages: 100, 66, 60, 40, 33, 30, 16;
+
+// List of possible ending positions (rotations)
+$end-positions: $end-pos-100, $end-pos-66, $end-pos-60, $end-pos-40, $end-pos-33, $end-pos-30, $end-pos-16;
+
+@mixin animation {
+  transform-origin: bottom center;
+  animation-duration: $needle-speed;
+  animation-iteration-count: 1;
+  animation-timing-function: $needle-easing;
+  animation-fill-mode: forwards;
+}
+
+@mixin adjust-size($factor: 90) {
+  $factor: $factor * 0.01;
+  width: ($circle-diameter + 20px) * $factor;
+  height: ($circle-radius + 25px) * $factor;
+  position: relative;
+  margin: 20px auto;
+
+    &::after {
+      height: 10px * $factor;
+      width: ($circle-diameter - $dial-stroke-width * 2) * $factor;
+    }
+
+
+    .dial {
+      padding-top: 20px * $factor;
+    }
+
+    .bar {
+      position: relative;
+      overflow: hidden;
+      height: $circle-radius * $factor;
+    }
+
+    .half-circle {
+      height: $circle-radius * $factor;
+      width: $circle-diameter * $factor;
+      border-radius: ($circle-diameter * $factor) ($circle-diameter * $factor) 0 0;
+      transform-origin: bottom center;
+    }
+
+    .half-circle-cover {
+      height: ($circle-radius - $dial-stroke-width) * $factor;
+      width: ($circle-diameter - $dial-stroke-width * 2) * $factor;
+      border-radius: ($circle-diameter * $factor) ($circle-diameter * $factor) 0 0;
+    }
+
+    .needle {
+      width: $needle-width * $factor;
+
+      .inner {
+        height: $needle-height * $factor;
+        width: $needle-width * $factor;
+      }
+
+      // upper triangle
+      .top {}
+
+      // lower half circle
+      .bottom {}
+    }
+}
+
+@mixin needle-svg {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMSBUaW55Ly9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLXRpbnkuZHRkIj48c3ZnIHZlcnNpb249IjEuMSIgYmFzZVByb2ZpbGU9InRpbnkiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEycHgiIGhlaWdodD0iMTEzcHgiIHZpZXdCb3g9IjAgMCAxMiAxMTMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM2NzY3NjciIGQ9Ik0wLjA2NywxMDYuMzQ0Yy0wLjAxNiwwLjEzNS0wLjAyNCwwLjU0My0wLjAzMiwwLjY4MWwtMC4wMTIsMC40MTFoMC4wMDVjLTAuMDAxLDAtMC4wMTEtMC4xNDYtMC4wMTEtMC4wODFjMC4wMDYsMy4xOSwyLjY4OSw1LjYzNSw1Ljk5NSw1LjYyOWMzLjMwNC0wLjAwNyw1Ljk3OC0yLjY2Niw1Ljk3MS01Ljg1NmMtMC4wMDEtMC40MTUtMC4wNS0wLjg1My0wLjEzNi0xLjI0Mkw2LjAxMiwwLjEyNEwwLjA2NywxMDYuMzQ0eiIvPjwvc3ZnPg==);
+  background-size: 100%;
+
+}
+.wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.speedometer {
+  // We need to hide overflow on the container or else the rotating 'needle' boundary box will create scrollbars when animated
+  overflow: hidden;
+
+  // Add some extra space around the container so that needle isn't cut off while animating
+  width: $circle-diameter + 20px;
+  height: $circle-radius + 25px;
+  position: relative;
+  margin: 20px auto;
+
+  // In some browsers there is a gap between the white half circle that is covering the blue bg circle, and the bottom of the blue bg circle; add a pseudo element to cover it
+  &::after {
+    background-color: #fff;
+    height: 10px;
+    width: 130px;
+    margin: 0 auto;
+    left: 0;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    border-radius: 1px;
+    z-index: 40;
+    right: 0;
+  }
+
+  // contains progress bar and needle
+  .dial {
+    padding-top: 20px;
+    overflow: hidden;
+  }
+
+  // needle is a css triangle above a css half-circle
+  .needle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2px;
+    width: $needle-width;
+    margin: 0 auto;
+    z-index: 50;
+
+    .inner {
+      // CSS-only needle breaks up on scaling, and in different browsers
+      @include needle-svg();
+      height: $needle-height;
+      width: $needle-width;
+      position: relative;
+      transform: rotate(90deg);
+      transform-origin: bottom center;
+    }
+
+    .top,
+    .bottom {
+      display: none;
+      position: absolute;
+    }
+
+    // upper triangle
+    .top {
+      border-color: transparent;
+    }
+
+    // lower half circle
+    .bottom {
+      background-color: transparent;
+      }
+  }
+
+  // container/clipping mask for half circles
+  .bar {
+    position: relative;
+    overflow: hidden;
+    height: $circle-radius;
+  }
+
+  .half-circle {
+    height: $circle-radius;
+    width: $circle-diameter;
+    border-radius: $circle-diameter $circle-diameter 0 0;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform-origin: bottom center;
+  }
+
+  // Speed indicator/progress bar background
+  .half-circle-bg {
+    background-color: $circle-color-bg;
+    z-index: 10;
+  }
+
+  // Speed indicator/progress bar
+  .half-circle-speed {
+    background-color: $circle-color-speed;
+    z-index: 20;
+  }
+
+  // Speed indicator/progress bar cover, makes the half circle appear as as a circular bar instead
+  .half-circle-cover {
+    background-color: $circle-color-cover;
+    height: $circle-radius - $dial-stroke-width;
+    width: $circle-diameter - $dial-stroke-width * 2;
+    border-radius: $circle-diameter $circle-diameter 0 0;
+    background: $circle-color-cover;
+    margin: 0 auto;
+    top: auto;
+    bottom: 0;
+    z-index: 30;
+
+  }
+
+  .animated {
+    transform: rotate($start-pos);
+
+    @include animation;
+  }
+
+  // Small versions
+  [class*='sm'] & {
+    // 62% is the magic number that gets us the closest to a tasrget 118px width
+    @include adjust-size(62);
+  }
+}
+
+// Testing
+.scaled-90 .speedometer {
+  @include adjust-size(90);
+}
+.scaled-80 .speedometer {
+  @include adjust-size(80);
+}
+.scaled-70 .speedometer {
+  @include adjust-size(70);
+}
+.scaled-60 .speedometer {
+  @include adjust-size(60);
+}
+.scaled-50 .speedometer {
+  @include adjust-size(50);
+}
+// Iterate over each possible percentage the progress meter will indicate
+@for $i from 1 through length($percentages) {
+  // Grab our percent from the list, according to the loop index
+  $percent: #{nth($percentages, $i)};
+
+  // Add a class name that corresponds to the percentage number
+  .percent-#{$percent} .speedometer.play,
+  // Small versions
+  .percent-#{$percent}-sm .speedometer.play {
+    // 'Elements that animate
+    .animated {
+      // Pull the name of the correct animation based on index
+      animation-name: to-#{nth($percentages, $i)};
+    }
+  }
+
+  // Class names for satic versions
+  .percent-#{$percent}-static,
+  // Small versions
+  .percent-#{$percent}-static-sm {
+    .animated {
+      animation: none;
+
+      // Pull the correct ending position based on index
+      transform: rotate(#{nth($end-positions, $i)});
+    }
+  }
+}
+
+// Generate keyframes
+@for $i from 1 through length($percentages) {
+  $percent: #{nth($percentages, $i)};
+
+  @keyframes to-#{$percent} {
+    0% {
+      transform: rotate($start-pos);
+    }
+
+    // translate3d for FF rendering bug
+    100% {
+      transform: rotate(#{nth($end-positions, $i)});
+    }
+  }
+}
+
+@media ( max-width: px-to-em(1150) ) {
+  .speedometer {
+    @include adjust-size(90);
+  }
+
+}
+@media ( max-width: px-to-em(1025) ) {
+  .speedometer {
+    @include adjust-size(80);
+  }
+}
+@media ( max-width: px-to-em(900) ) {
+  .speedometer {
+    @include adjust-size(70);
+  }
+}
+@media ( max-width: px-to-em(825) ) {
+  .speedometer {
+    @include adjust-size(60);
+  }
+}
+
+@media (max-width: 48em) {
+
+}
+
+
+body {
+    font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
+}
+
+.et-hero-tabs-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 10;
+    &--top {
+        position: fixed;
+        top: 0;
+    }
+}
+
+.et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+    &:hover {
+      color:white;
+      background: rgba(102,177,241,0.8);
+      transition: all 0.5s ease;
+    }
+}
+
+.et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #66B1F1;
+    transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+  .et-hero-tabs,
+  .et-slide {
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+  }
+  .et-hero-tab {
+    font-size: 1rem;
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+@import "compass/css3";
+
+@import "compass/reset";
+@import "compass/css3";
+
+/* Colors */  
+/* ---------------------------------------- */ 
+$border:     #c6c6c6;
+$border-focus: #C1AC7E;
+$primary-color: #C1AC7E;
+$secondary-color: #A26D45;
+$brand-color:  #a26d45;
+$booking-green: $brand-color;
+$asphalt:     #506982;
+
+div, input, select, textarea {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lucida Grande', Arial, Verdana, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+}
+
+form {
+  max-width: 445px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FBFAF5;
+  padding: 10px;
+}
+
+.mr3 {
+  margin-right: 15px;
+}
+
+.info-text{
+  text-align: left;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 2px;
+  .controls:not(.nested):last-child {
+    :last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+.form-group-buttons {
+  padding: 0 10px;
+  text-align: center;
+  button {
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    border-radius: 3px;
+    width: 120px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color: $primary-color;
+    &:hover {
+      box-shadow: inset 0 0 0 100vw rgba(black, 0.05);
+    }
+  }
+}
+
+.g-recaptcha {
+  margin: auto;
+  div {
+    margin: auto;
+  }
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: $secondary-color;
+  background-color: #ddd;
+  border-radius: 3px;
+  /* border-bottom: 1px solid $asphalt; */
+  padding: 16px 14px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  position: relative;
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="tel"],
+  textarea,
+  button,
+  select{
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid $border;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #888;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 16px;
+    font-weight: 300;
+    @include border-radius(2px);
+    @include transition(all .3s);
+
+    &:focus, &:hover{
+      outline: none;
+      border-color: $border-focus;
+      + label {
+        color: $booking-green;
+          cursor: text;
+        &.active {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .fa-sort{
+    position:absolute;
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    padding: 15px 20px;
+    pointer-events: none !important;
+    top: 2px;
+    right: 2px;
+    color: #999;
+    background-color: #fff;
+  }
+
+  select{
+    @include appearance(none);
+    cursor: pointer;
+    background-color: #fff;
+  }
+  label{
+    pointer-events: none !important;
+    position: absolute;
+    left: 8px;
+    top: 0;
+    transform: translateY(12px);
+    width: auto;
+    color: #999;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0);
+    @include transition(color .3s, transform .3s, background-color .3s);
+     /* background-color: rgba(255,255,255,1); */
+
+    &.active {
+      transform: translateY(-12px);
+      color: #fff;
+      background-color: rgba(#999, 1);
+      width: auto;
+    }
+  }
+  textarea{
+    resize: none;
+    height: 200px;
+  }
+}
+
+button{
+  cursor: pointer;
+  background-color: $brand-color;
+  border: none;
+  color: #fff;
+  &:hover{
+    background-color: lighten($brand-color, 5%);
+  }
+}
+
+.clear:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+// Grid https://codepen.io/chriscoyier/pen/eGcLw
+
+$pad: 10px;
+
+.grid {
+  //margin: 0 0 $pad 0;
+  
+  &:after {
+    /* Or @extend clearfix */
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: $pad;
+  .grid &:last-of-type {
+    padding-right: 0;
+  }
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-1-2 {
+  width: 50%;
+}
+
+.col-1-4 {
+  width: 25%;
+}
+
+/*@media (max-width: 768px) {
+  [class*='col-'] {
+    width: 100%;
+    padding-right: 0px;
+  }  
+}
+*/
+.col-1-8 {
+  width: 12.5%;
+}
+
+
+
+p:not(:last-child) {
+  margin: 0 0 20px;
+}
+
+main {
+  max-width: 800px;
+  padding: 40px;
+  border: 1px solid rgba(0,0,0,.2);
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #abc;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #abc;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label[for*='1']:before { content: '\f1cb'; }
+label[for*='2']:before { content: '\f17d'; }
+label[for*='3']:before { content: '\f16c'; }
+label[for*='4']:before { content: '\f171'; }
+
+label:hover {
+  color: #789;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #0af;
+  border: 1px solid #abc;
+  border-top: 2px solid #0af;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  label {
+    padding: 15px;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,1449 @@
+
+@media (max-width: 1600px) {
+    header.header_v4  .sub-menu {
+        min-width: 200px;
+    }
+    .header_v4 .navigation ul.main-menu >li.menu-item {
+        min-width: 200px;
+    }
+    .header_v4 .header-right {
+        padding-right: 50px;
+    }
+    .header_v4 .navigation ul.main-menu {
+        padding-left: 0;
+    }
+    .page-title-wrapper {
+        /*height: 300px;*/
+    }
+	header .container {
+        width: 1326px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 1440px) {
+    .header_v4 .navigation ul.main-menu >li.menu-item {
+        min-width: 196px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    header.header_v4  .sub-menu {
+        min-width: 230px;
+    }
+    #back-to-top {
+        bottom: 138px;
+        right: 15px;   
+    }
+    .comingsoon-wrapper .coom-inner {
+        padding: 40px 0;
+    }
+    .coom-inner .title {
+        margin: 20px 0 25px;
+    }
+    .comingsoon-wrapper .thim-countdown {
+        margin-bottom: 0;
+    }
+    .comingsoon-wrapper .owl-carousel.owl-drag .owl-item {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1400px) {    
+	header .container {
+        width: 1326px;
+        max-width: 100%;
+    }
+    body.demo-4 .container {
+        width: 1362px;
+        max-width: 100%;
+    }
+	body .container {
+		width: 1362px !important;
+		max-width: 100%;
+	}
+}
+@media (max-width: 1366px) {
+    .header_v4 .navigation ul.main-menu >li.menu-item {
+        min-width: 185.3px;
+    }
+    .h4-bg-reason {
+        padding: 80px 0;
+    }
+	header .container {
+        width: 1326px;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .header_v4 .navigation ul.main-menu >li.menu-item {
+        min-width: 140px;
+    }
+    .toolbar-info {
+        padding-right: 0;
+    }
+    .comingsoon-wrapper .coom-inner {
+        padding: 100px 0;
+    }
+    .comingsoon-wrapper .thim-countdown {
+        margin: 50px 0;
+    }
+    .top-toolbar ul.top-menu>li>a,
+    .weather {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .language {
+        padding-left: 20px;
+    }
+	header .container {
+        width: 1326px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .top-toolbar {
+        padding-left: 0;
+    }
+    .toolbar-info {
+        padding-right: 0;
+    }
+    .navigation ul.main-menu {
+        padding: 0 10px;
+    }
+}
+
+/*@media (max-width: 1200px) and (min-width: 1025px){
+    .page-title-wrapper {
+        height: 200px;
+    }
+}*/
+@media (max-width: 1200px) {
+    .comingsoon-wrapper .coom-inner {
+        padding: 40px 0;
+    }
+	.stick #scroll-tab {
+		padding-left: 0px !important;	
+	}
+}
+@media (min-width: 1200px) {
+    body .container {
+        width: 1200px;
+        max-width: 100%;
+    }	
+    body .container.w-1192 .row {
+        margin: 0;
+    }
+    body .container.w-1192 .col-sm-3 {
+        padding: 0;
+    }
+    body .container.w-1192 {
+        width: 1362px !important;
+        max-width: 100%;
+    }
+	header .container {
+        width: 1326px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1170px) {
+    .sc-tourist.style-02 .rating {
+        font-size: 0;
+    }
+    .sc-travel.style-01 .content .info {
+        padding-top: 10px;
+    }
+    .sc-travel.style-01 .content .inner {
+        padding: 20px 25px;
+    }
+    .h4-group-check-room .sc-travel.style-01 .row {
+        margin: 0;
+    }
+    .h4-group-check-room .sc-travel.style-01 .item {
+        padding: 0;
+    }
+    .navigation ul.main-menu > li.menu-item {
+		margin-right: 15px;
+	}
+    .language {
+        padding: 0 15px;
+    }
+    .header_v2 .phone {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sc-tourist.style-01 .content .inner .title {
+        font-size: 30px;
+    }
+    .header_v4 .navigation ul.main-menu >li.menu-item {
+        min-width: 138px;
+    }
+    .sc-rooms.style-04 .item {
+        margin-bottom: 28px;
+    }
+    .h4-group-video-testimonial {
+        padding-top: 80px;
+    }
+    .sc-testimonial.style-04 {
+        padding: 0 50px 50px;
+    }
+    .footer .col-sm-3{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 20px 15px;
+    }
+    .h4-group-video-testimonial .col-sm-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .sc-video.style-02 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .sc-travel.style-02 .review .time, .travel-content-search .item .time {
+        float: left;
+    }
+    .sc-reason .list-reason li i {
+        float: left;
+        min-height: 40px;
+    }
+    .header_v4 .header-right {
+        padding-right: 30px;
+    }
+    .hotel-booking-search.style-01.layout-columns .daterangepicker.dropdown-menu {
+        right: 8px;
+        left: auto !important;
+    }
+    .sc-list-event.style-01 .event .title {
+        font-size: 20px;
+    }
+    .sc-list-event.style-01 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .home .rooms-content .room-item .room-summary {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .home .room-meta .rating  {
+       float: right;
+    }
+    .home .rooms-content .room-meta .price {
+        float: left;
+    }
+    .h1-introduce .sc-heading.style-02,
+    .h1-introduce .sc-img-box {
+        position: static;
+    }
+    .h1-introduce .sc-heading.style-02 {
+        padding: 0;
+    }
+    .sc-heading.style-02 .title {
+        font-size: 40px;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-submit {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-form-table .hb-form-field.hb-form-check-in:after {
+        right: -5px;
+    }
+    .hotel-booking-search .hb-form-table .hb-form-field {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hotel-booking-search.style-01 .hb-form-table .hb-form-field.hb-form-check-out:before,
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-form-table .hb-form-field.hb-form-number:after {
+        right: 20px;
+    }
+    .room-meta .rating,
+    .rooms-content .room-meta .price {
+        float: none;
+    }
+    .navigation ul.main-menu {
+        padding-right: 0;
+    }
+    .toolbar-right {
+        padding-left: 0;
+    }
+    .sc-counter-box,
+    .sc-quote.style-01 {
+        padding: 150px 0;
+    }
+    .sc-counter-box .wrapper .item {
+        margin: 0 10px;
+    }
+    .widget-newsletter form input {
+        width: 100%;
+    }
+    header#masthead .width-logo {
+        width: 200px;
+    }
+
+    header .sub-menu {
+        min-width: 200px;
+    }
+    .toolbar-info .label {
+        display: none;
+    }
+    .top-toolbar ul.top-menu>li>a, .weather {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    a.btn-book {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .sc-reason {
+        padding-left: 0;
+    }
+.sc-video.style-02 .background-video {	
+		right: 0px !important;
+	}	
+}
+@media (max-width: 1080px) {
+	.navigation ul.main-menu > li.menu-item {
+		margin-right: 15px;
+	}
+}
+@media (max-width: 1023px) {
+    .top-toolbar,
+    .header-right {
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+    header#masthead.header_v4 .width-logo .no-sticky-logo img {
+        height: 60px;
+    }
+    .container {
+        width: 960px;
+        max-width: 100%;
+    }
+	.content-wrapper {
+		padding: 12px;
+		width: 320px;
+	}
+	#inquire-section {
+		top: 0px !important;
+	}
+	.winters-tour {
+		padding: 4em 0 !important;
+	}
+	.sc-travel-search .hb-form-table {
+	/* float: left; */
+		width: 100%;
+	/* margin: 0 -7.5px; */
+	}
+	.sc-travel-search .hb-form-table li {
+		width: 33.33%;
+		float: left;
+		padding: 0 6.5px;
+	}
+	.page-title-wrapper {
+		height: 78vh;	
+	}
+	.about-info {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}	
+}
+
+@media (max-width: 991px) {
+	.difficulty {		
+		max-width: 275px;
+		margin: 0 auto;
+	}		
+	.content-wrapper {
+		opacity: 0.88;
+	}
+	#secondary {
+		padding: 3em 0;
+	}
+	.widget-area .wd {
+	/* margin-bottom: 30px; */
+		margin: 40px 0;
+		max-width: 360px;
+		margin: 40px auto;
+		box-shadow: 1px 2px 3px #dededd;
+	}
+	.stick #navigation {
+		overflow: hidden;
+		background-color: #14141e;
+		/* padding-left: 100px; */
+		padding-left: 15px !important;
+	}
+	.stick #navigation > #enquire {
+		display: block !important;
+	}
+	#inquiry-form {
+		width: 275px !important;
+		margin:0 auto;
+	}
+	.image-box ul > li {
+	color: #fff;
+	font-size: 15px;
+	padding: 13px 0 0 13px;
+	}	
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .sc-reason .title {
+        font-size: 40px;
+    }
+    .header_v4 .navigation ul.main-menu >li.menu-item {
+        min-width: 115px;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-submit {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .shop-content .product-meta {
+        float: none;
+    }
+    .comingsoon-wrapper .thim-countdown .counter-group .counter-block {
+        margin: 0 5px;
+    }
+    body.single-event aside#secondary,
+    body.single-event main.site-main.col-md-9 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    body.single-event main.site-main.col-md-9 {
+        padding-bottom: 45px;
+        order: -1;
+    }
+    .comingsoon-wrapper .thim-countdown {
+        margin: 15px 0;
+    }
+    .comingsoon-wrapper .coom-inner {
+        padding: 0;
+    }
+    .sc-contact-form {
+        padding: 40px 30px;
+    }
+    .sc-contact-info {
+        padding-left: 0;
+    }
+    .sc-heading .description br,
+    .sc-count-down .title br {
+        display: none;
+    }
+    .meta_post .social-share {
+        float: none;
+        margin-top: 20px;
+    }
+    header#masthead .width-logo {
+        width: 150px;
+    }
+    .sc-about-slides .owl-next {
+        right: 15px;
+    }
+    .sc-about-slides .owl-prev {
+        left: 15px;
+    }
+	.sc-quote.style-02 a.btn-quote {
+		margin-left: 60px;
+	}
+}
+
+@media (max-width: 959px) and (min-width: 768px) {
+    .sc-tourist.style-01 .content .inner {
+        padding: 0 20px;
+    }
+    .sc-tourist.style-01 .content .inner .title {
+        font-size: 26px;
+    }
+    .container {
+        width: 900px;
+        max-width: 100%;
+    }
+    .navigation .main-menu >li:last-child .sub-menu .sub-menu,
+    .navigation .main-menu >li:nth-last-child(2) .sub-menu .sub-menu {
+        left: auto;
+        right: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sc-video.style-02 {
+        max-width: 100%;
+    }
+    .sc-group-iconbox .top-description br {
+        display: none;
+    }
+    .sc-images.style-01 .container-fluid .row >div {
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .sc-posts.style-02 .content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .sc-tourist.style-02 .col-sm-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .sc-rooms.style-04 .item {
+        margin-bottom: 27px;
+    }
+    .sc-rooms.style-04 .item .content {
+        padding: 0 10px;
+    }
+    .sc-rooms.style-04 .items-small .content .rating {
+        display: none;
+    }
+    .sc-rooms.style-04 .content .title a {
+        font-size: 20px;
+    }
+    .sc-tourist.style-01 .content .inner .title {
+        font-size: 26px;
+    }
+    .sc-tourist.style-01 .content .inner {
+        padding: 0 15px;
+    }    
+    .sc-travel.style-01 .content .inner {
+        padding: 15px;
+    }
+    .sc-travel.style-01 .content .info {
+        display: none;
+    }
+    header#masthead.header_v4 img.mobile-logo {
+        height: 60px;
+    }
+    .sc-categories-link.style-02 .item .content-overlay {
+        left: 20px;
+    }
+    .blog-event .item-first {
+        padding-bottom: 30px;
+    }
+    .blog-event >.row >div{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .hotel-booking-search.layout-columns .hb-form-table .hb-form-field .hb_input_field {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .home .room-meta .rating, .home .rooms-content .room-meta .price {
+        float: none;
+    }
+    .sc-list-box.style-01 .box-item {
+        text-align: center;
+    }
+    .sc-gallery.style-01 {
+        text-align: center;
+    }
+    .sc-posts.style-01 .content {
+        padding: 20px;
+    }
+    .sc-heading.style-02 .title {
+        font-size: 30px;
+    }
+    .hotel-booking-search.style-01 .hb-submit .contact-info span {
+        display: inline-block;
+    }
+    .hotel-booking-search.style-01 .hb-submit .contact-info {
+        line-height: normal;
+    }
+    .rooms-content.layout-grid.style-02 .room-item .room-summary {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .rooms-content.layout-grid.style-01 .room-item .room-summary {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .event-single-content .thumbnail img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .comingsoon-wrapper .thim-countdown {
+        margin: 50px 0;
+    }
+    .comingsoon-wrapper .coom-inner {
+        padding: 90px 0;
+    }
+    .meta_post .social-share {
+        float: right;
+    }
+   .page-title-wrapper .heading_primary {
+		font-size: 30px;
+	}
+    .image-box img {
+        width: 100%;
+    }
+    aside#secondary,
+    main.site-main.col-md-9 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    main.site-main.col-md-9 {
+        padding-bottom: 45px;
+        order: -1;
+    }
+    .sc-quote.style-01 .title {
+        padding-left: 90px;
+    }
+    header#masthead .width-logo {
+        width: 100% !important;
+    }
+    body:not(.demo-1) .mobile-menu-container .inner-off-canvas .menu-mobile-effect.navbar-toggle:hover .fa {
+        color: var(--primary-color-2);
+    }
+    .h4-group-check-room .sc-travel.style-01 {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+	#book-title {
+		font-size: 20px;
+	}
+	#enquiry-title {
+		font-size:20px !important;
+	}
+	.sc-rooms.style-04 .item-large .content .title a {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	
+}
+
+@media (max-width: 767px) {    
+    .sc-travel-search .hb-form-table li select {
+        padding: 0 15px;
+    }
+    .sc-reason .title {
+        font-size: 40px;
+    }
+	.content.icon1 {
+		padding: 10px 0;
+	}
+	.sc-quote.style-02 .sc-content-overlay {
+		padding: 60px 0;
+	}
+	.sc-quote.style-02 a.btn-quote {
+		margin: 5px 0;
+	}
+	.sc-quote.style-02 .title {
+		font-size: 40px;
+		margin: 0 0 30px;
+		line-height: 120%;
+		/* font-family: var(--body-font-family-2); */
+	}
+	#service > span {
+		font-size: 14px;
+	}
+	.sc-list-info {
+		padding-bottom: 0em !important;
+		padding-top: 0em !important;
+	}
+	.sc-list-info ul li {
+		padding: 5px 0;
+		font-size: 15px;	
+		text-align: center;
+	}
+	#carry-icon {
+		text-align: center;
+	}	
+	#res-padding {
+		padding: 30px 0 0 0;
+	}
+	#space {
+		padding: 1em 0 !important;
+	}
+	#navigation a {
+		padding: 10px 12px !important;	
+	}		
+	.criteria {
+		text-align: center;
+	}
+	.criteria {	
+		padding: 15px 10px 15px 10px !important;
+	}
+}
+
+@media (max-width: 667px) and (min-width: 601px) {
+    .sc-events.list-style .event-content {
+        padding-bottom: 30px;
+    }
+    .sc-testimonials.style-02 .item {
+        max-width: 460px;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-form-table .hb-form-field.hb-form-check-in:after {
+        right: 15px;
+    }
+    .hotel-booking-search.style-01 .hb-form-table .hb-form-field .hb_input_field input.day {
+        width: auto !important;
+    }
+    .hotel-booking-search .hb-form-table .hb-form-field.hb-form-number .hb-form-field-list {
+        padding: 15px;
+    }
+}
+@media (max-width: 767px) and (min-width: 568px) {
+    .sc-categories-link.style-02 .item .title a {
+        font-size: 18px;
+    }
+    .sc-posts.style-01 .item-first {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .shop-content .product-meta {
+        float: left;
+    }	
+	.page-title-wrapper {
+		height: 70vh;	
+	}
+}
+@media (max-width: 680px) {
+	.sc-quote.style-02 .title {
+		font-size: 35px;
+		margin: 0 0 25px;
+		/* font-family: var(--body-font-family-2); */
+		}
+		.delayedPopupWindow {		
+		width: 480px !important;		
+	}
+	#navigation a {	
+		font-size: 13px !important;	
+	}
+	.activ, #act-link:hover {
+		border-bottom: 2px solid #f2f2f2 !important;
+	}
+}
+@media (max-width: 667px) {
+    .sc-tourist.style-01 .content .inner .title {
+        font-size: 34px;
+    }
+    .sc-travel.style-01 .content .info {
+        padding-top: 30px;
+        display: inline-block;
+    }
+    .sc-travel.style-01 .content .inner {
+        padding: 20px 25px;
+    }
+    .h4-group-check-room .sc-travel.style-01 .item,
+    .sc-tourist.style-01 .item,
+    .sc-group-iconbox .box-item {
+        /*-ms-flex: 0 0 50%;
+        flex: 0 0 50%; */
+        max-width: 50%;
+        padding-bottom: 15px;
+    }
+    .tp-bullets {
+        display: none !important;
+    }
+    .hotel-booking-search.style-01 {
+        margin-top: 30px;
+    }
+
+    .hotel-booking-search .hb-form-table,
+    .hotel-booking-search .hb-submit,
+    .hotel-booking-search .daterangepicker.dropdown-menu {
+        width: 100% !important;
+    }
+    .comingsoon-wrapper .coom-inner {
+        padding: 0;
+    }
+    .comingsoon-wrapper .thim-countdown {
+        max-width: 377px;
+        margin: 0 auto;
+    }
+    .footer-top .newsletter h3 {
+        margin: 0 0 20px;
+    }
+    .comingsoon-wrapper .thim-countdown .counter-group .counter-block {
+        margin-bottom: 20px;
+    }
+    .sc-categories-link .item .title a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sc-travel.style-02 .owl-dots {
+        margin-top: 15px;
+    }
+    .sc-rooms.style-04 .item:before {
+        left: 10px;
+        right: 10px;
+        width: auto;
+    }
+    .sc-rooms.style-04 .item-large .item {
+        padding: 0 10px;
+    }
+    .sc-rooms.style-04 .items-small .item {
+        width: 50%;
+        float: left;
+        padding: 0 10px;
+    }
+    .sc-rooms.style-04 .items-small,
+    .sc-rooms.style-04 .item-large {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .sc-posts.style-02 .item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-top: 30px;
+    }
+    .sc-travel-search .hb-submit {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .sc-travel-search .hb-form-table{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .h4-group-check-room .sc-travel.style-01 .item {
+        padding: 15px;
+    }
+    .sc-travel.style-01 .content .info {
+        padding-top: 15px;
+    }
+    .sc-instagram .item {
+        width: 50%;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-form-table .hb-form-field.hb-form-check-in:after {
+        right: 10px;
+    }
+    .sc-testimonials.style-02 {
+        max-width: 100%;
+    }
+    .sc-testimonials.style-01 .heading br {
+        display: none;
+    }
+    .popup-container {
+        /*padding: 50px 30px;*/
+        padding: 3px;
+    }
+    .rooms-content-search .room .room-summary {
+        padding-top: 30px;
+    }
+    .rooms-content-search .room-media,
+    .rooms-content-search .room .room-summary{
+        width: 100%;
+    }
+    .product-related .shop-content .product {
+        padding: 30px;
+    }
+    .sc-events.list-style .event {
+        text-align: center;
+    }
+    .sc-events.list-style .event .event-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .comingsoon-wrapper .coom-inner .content-text br {
+        display: none;
+    }
+    .comingsoon-wrapper .coom-inner .content-text {
+        padding: 0 30px;
+    }
+    .coom-inner .title {
+        font-size: 30px;
+    }
+    .meta_post .social-share {
+        float: none;
+        margin-top: 20px;
+    }
+    .blog-single-content article .post-summary .post-title {
+        font-size: 30px;
+    }
+    .sc-list-info ul {
+        margin-bottom: 25px;
+    }
+    .sc-quote.style-01 .title {
+        padding-left: 30px;
+    }
+    .sc-counter-box .wrapper .item {
+        margin: 0 10px 30px;
+    } 
+    .h1-banner .sc-box.style-01 .title {
+        font-size: 46px;
+    }
+	.sc-tourist.style-01 .content .inner .title {
+		font-size: 22px;	
+	}
+	.sc-travel-search .hb-form-table li {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+	.sc-tourist.style-02 .title a {
+		font-size: 15px;
+	}
+	.sc-quote.style-02 .title {
+		font-size: 30px;
+		margin: 0 0 20px;
+		/* font-family: var(--body-font-family-2); */
+	}
+	.winters-tour {
+		padding: 2em 0 !important;
+	}	
+	.sc-list-info ul li {
+		text-align: center;
+	}
+	#benefit-icon {
+		text-align: center;
+	}
+	.page-title-wrapper {
+		height: 55vh;
+	}
+	#carry-title > h5 {
+	font-size: 15px;
+	}
+	#rev_slider_5_1 .zeus.tparrows {
+		min-width: 45px;
+		min-height: 45px;
+	}
+	#rev_slider_5_1 .zeus.tparrows::before {	
+		font-size: 28px;
+		line-height: 45px;
+	}
+	.sc-rooms.style-04 .item-large .content .title a {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	#carry-item.col-sm-6 {
+		-ms-flex: 0 0 50% !important;
+		flex: 0 0 50% !important;
+		max-width: 50% !important;
+	}
+	.sc-heading .second-title {
+		font-size: 22px;
+	}
+	.sc-heading .first-title {
+		font-size: 16px;
+	}
+	.rating img {
+		max-width: 45px;
+		max-height: 45px;
+	}
+	.form-popup {		
+		bottom: 18%;
+	}
+	.sc-tourist.style-01 .content {
+		margin: 8px 0;
+	}
+}
+@media (max-width: 575px) {
+	#three-col.col-sm-4 {
+		width: 33.33%;
+		padding: 0 5px;
+	}
+	.room-head > img {
+		display: none;
+	}
+	#opener3 {
+		margin-top: 5px;		
+		width:150px;
+	}
+	#opener4 {				
+		width:150px;
+	}
+	.button-holder {
+		text-align: center;
+	}
+	#pay {
+	text-align: center;
+	}
+	.sc-rooms.style-04 .item {
+		margin-bottom: 22px;
+	}
+	.sc-list-info {	
+		padding-left: 0em !important;
+	}
+}
+
+@media (max-width: 568px) {
+    .sc-reason .list-reason li i {
+        color: #000000;
+    }
+    .h4-bg-reason {
+        position: relative;
+        overflow: hidden;
+    }
+    .h4-bg-reason:before {
+        position: absolute;
+        opacity: .6;
+        content: '';
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: block;
+        background-color: #fff;
+    }
+    .sc-quote.style-04 .title a {
+        margin-top: 10px;
+    }
+    .sc-posts.style-02 .item .post img {
+        width: 100%;
+    }
+    .footer .col-sm-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .sc-categories-link.style-02 .item {
+        margin-bottom: 30px;
+    }
+    .sc-categories-link.style-02 .item .title a {
+        font-size: 24px;
+    }
+    .sc-instagram .item {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .sc-rooms.style-01 .rooms-content .room {
+        padding-bottom: 30px;
+    }
+    .menu-mobile-effect.navbar-toggle .icon-wrap {
+        margin-left: 0;
+    }
+    .hotel-booking-search.style-02 .room-submit {
+        margin-top: 30px;
+    }
+    .hotel-booking-search.style-02 form .form-table {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hotel-booking-search.style-02 input, .hotel-booking-search.style-02 select {
+        max-width: 100%;
+    }
+    .group-slides {
+        background: #ddd;
+    }
+    .sc-categories-link .item .title a {
+        font-size: 30px;
+    }
+    .sc-categories-link .container-fluid .row .col-sm-3 {
+        padding-bottom: 30px;
+    }
+    .group-slides .sc-hb-rooms-search.style-02 {
+        position: static;
+        padding: 30px 0;
+    }
+    .sc-posts.style-01 .item .content {
+        transform: translateY(30px);
+    }
+    .sc-posts.style-01 .item-first {
+        padding-bottom: 30px;
+    }
+    .sc-list-box.style-01 .box-item {
+        text-align: center;
+    }
+    .sc-video .background-video .content .title br,
+    .h1-banner .sc-box.style-01 .title br {
+        display: none;
+    }
+    .h1-introduce .sc-heading.style-02 {
+        padding-bottom: 30px;
+    }
+    .h1-introduce .sc-img-box .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+    .camera_wrap {
+        height: 340px !important;
+    }
+    .search-room-popup .form-table >li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sc-gallery .filter-controls li {
+        margin: 0 15px;
+    }
+    .event-single-content .content .description,
+    .event-single-content .content .info {
+        padding-left: 0;
+        width: 100%;
+        float: none;
+    }	
+	.sc-tourist.style-01 .content .inner .title a {
+		line-height: 25px;
+	}
+}
+@media (max-width: 500px) {
+	.sc-quote.style-02 .title::before {
+		width: 40px;
+	}
+	.sc-quote.style-02 .title {
+		font-size: 25px;
+		margin: 0 0 20px;
+		/* font-family: var(--body-font-family-2); */
+	}
+	.sc-heading .description {
+		margin: 5px 15px !important;
+	}
+	#popup-ad .modal-body .popup-ad-text h2 span {
+		font-size: 35px;
+	}
+	#popup-ad .modal-body .popup-ad-text h2 {
+		font-size: 35px;
+	}
+	.modal-dialog {
+	max-width: 350px;
+	margin: 0 auto;
+	}
+}
+
+@media (max-width: 480px) {    
+    .sc-testimonial.style-04 {
+        padding: 0 0 20px;
+    }
+    .sc-count-down .countdown-show4 .countdown-section {
+        margin: 0 5px;
+    }
+    .sc-posts.style-02 .item {
+
+    }
+    .sc-tourist.style-02 .image img {
+        width: 100%;
+    }
+    .sc-tourist.style-01 .item, .sc-group-iconbox .box-item,
+    .sc-tourist.style-02 .col-sm-4,
+    .sc-posts.style-02 .item {
+        /* -ms-flex: 0 0 100%;
+        flex: 0 0 100%; */
+        /* max-width: 100%; */
+    }
+    .sc-tourist.style-01 .item, .sc-group-iconbox .box-item {
+        padding-top: 20px;
+    }
+    /* .sc-travel-search .hb-form-table li { */
+        /* width: 100%; */
+        /* margin-bottom: 15px; */
+    /* } */
+    .sc-images.style-01 .container-fluid .row >div {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .sc-quote.style-02 a.btn-quote {
+        margin-left: 0;
+    }
+    .sc-testimonials.style-01 .heading {
+        font-size: 40px;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .daterangepicker.dropdown-menu:before {
+        border-color: transparent transparent #ddd;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .daterangepicker.dropdown-menu {
+        margin-top: -100px;
+        background: #ddd;
+    }
+    footer.footer_v2 .footer-top {
+        padding: 50px 0;
+    }
+    .sc-video .background-video .content .title {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .hotel-booking-search.style-01 .daterangepicker.dropdown-menu .calendar {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-form-table .hb-form-field.hb-form-check-in:after {
+        right: 20px;
+    }
+    .hotel-booking-search:not(.layout-columns) .hb-form-table .hb-form-field {
+        width: 100%;
+    }
+    .sc-post.style-02 {
+        padding-bottom: 30px;
+    }
+    .room_additinal .col-sm-4 {
+        padding-bottom: 30px;
+    }
+    .footer-top .newsletter input {
+        margin: 0 0 20px;
+        min-width: 100%;
+    }
+    .sc-gallery .filter-controls li {
+        margin: 0 15px 20px;
+    }
+    .thim-countdown.notice span {
+        padding: 10px;
+    }
+    .sc-contact-info {
+        padding-top: 40px;
+    }
+    .sc-quote.style-01  {
+        text-align: center;
+    }
+    .sc-quote.style-01 .title {
+        text-align: center;
+        padding-left: 0;
+    }
+    .sc-quote.style-01 a.btn-quote {
+        margin-left: 0;
+    }
+	.h4-group-check-room {
+		padding: 15px !important;
+	}
+	.sc-group-iconbox {
+		/* padding: 15px; */
+		padding: 2em 10px;
+	}	
+	.sc-quote.style-02 .title {
+		font-size: 23px;
+		margin: 0 0 20px;
+		/* font-family: var(--body-font-family-2); */
+	}
+	#rev_slider_5_1 .zeus.tparrows {
+		min-width: 35px;
+		min-height: 35px;
+	}
+	#rev_slider_5_1 .zeus.tparrows::before {	
+		font-size: 22px;
+		line-height: 40px;
+	}
+	.sc-rooms.style-04 .item-large .content .title a {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	#carry-title > h5 {
+		font-size: 14px;
+	}
+	#carry-icon > img {
+		max-height: 30px;
+		max-width: 35px;
+	}
+	.rating img {
+		max-width: 40px;
+		max-height: 40px;
+	}
+	.box-item {
+	padding: 10px;
+	}	
+	.delayedPopupWindow {		
+		width: 370px !important;		
+	}
+	#rev_slider_5_1 .zeus.tparrows::before {
+		font-size: 20px;
+		line-height: 35px;
+	}
+	.tparrows {	
+		width: 30px !important;
+		height: 30px !important; 		
+	}
+	.sc-tourist.style-01 .content {
+		margin: 0px 0;
+	}
+	.sc-rooms.style-04 .item {
+		margin-bottom: 20px;
+	}
+
+}
+@media (max-width: 414px) {
+    .list-logo li {
+        margin-bottom: 15px;
+    }
+    .sc-rooms.style-04 .items-small .content .rating {
+        display: block;
+    }
+    .sc-rooms.style-04 .items-small .item img {
+        width: 100%;
+    }
+    .sc-travel.style-01 .content .info {
+        padding-top: 30px;
+    }
+    .sc-tourist.style-01 .content img {
+        max-width: 100%;
+    }
+    .h4-group-check-room .sc-travel.style-01 .item, .sc-tourist.style-01 .item, .sc-group-iconbox .box-item {
+        width: 100%;
+    }
+    .h1-banner .sc-box.style-01 .title {
+        font-size: 40px;
+    }
+    .hotel-booking-search.style-01:not(.layout-columns) .hb-form-table .hb-form-field.hb-form-number:after {
+        width: auto;
+    }
+    div.sc-posts.style-01.auto-height .content {
+        transform: translateY(120px);
+    }
+    footer.footer_v2 .footer-top .pull-right {
+        padding-top: 30px;
+    }
+    footer.footer_v2 .footer-top .pull-right,
+    footer.footer_v2 .footer-top .pull-left {
+        float: none;
+    }
+    footer.footer_v2 .footer-top {
+        text-align: center;
+    }
+    .sc-testimonials.style-02 {
+        padding: 60px 40px;
+    }
+    .sc-posts.style-01.auto-height .item .content {
+        transform: translateY(100px);
+    }
+    .hotel-booking-search.style-01.layout-columns .daterangepicker.dropdown-menu {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .hotel-booking-search.style-01.layout-columns .goUp {
+        margin-bottom: 4px;
+    }
+    .hotel-booking-search.style-01.layout-columns .hb_input_field input.day {
+        font-size: 40px !important;
+    }
+    .hotel-booking-search.style-01.layout-columns select {
+        height: 40px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .sc-testimonials.style-02 .item {
+        padding-right: 50px;
+    }
+    .room-single .title-share .title {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .room-single .title-share .social-share {
+        float: none;
+    }
+    .room-single .social-share ul li {
+        margin-left: 0 !important;
+        margin-right: 10px !important;
+    }
+    .event-single-content .comingsoon-wrapper .thim-countdown .counter-group .counter-block {
+        margin: 0 2px 15px;
+    }
+    .comments-list .children {
+        margin-left: 0;
+    }
+    .comingsoon-wrapper .coom-inner .content-text form {
+        width: 100%;
+    }
+    .comingsoon-wrapper .thim-countdown .counter-group .counter-block {
+        margin: 0 9px 15px;
+    }
+    .coom-inner .title {
+        font-size: 20px;
+    }
+    .comingsoon-wrapper .coom-inner .content-text form button {
+        position: static;
+        margin-top: 10px;
+    }
+	.sc-tourist.style-01 .content .inner .title {
+		font-size: 18px;
+	}
+	#navigation a {
+		padding: 12px 0px !important;
+		font-size: 13px !important;
+	}
+	.navv {
+		top: -15px;
+		padding: 10px;
+		width: 100% !important;
+	}
+	.sc-quote.style-02 .title {
+		font-size: 20px;
+		margin: 0 0 20px;
+		/* font-family: var(--body-font-family-2); */
+	}
+	#service > img {
+		max-height: 32px;
+		max-width: 32px;
+	}
+	#service > span {
+		font-size: 12px;
+	}
+	.rating img {
+		max-width: 35px;
+		max-height: 35px;
+	}
+	.page-title-wrapper {
+		height: 45vh;
+	}
+}
+
+@media (max-width: 375px) {
+    .sc-count-down .title {
+        font-size: 36px;
+    }
+    .sc-quote.style-04 .btn-radius {
+        padding: 0 30px;
+    }
+    .comingsoon-wrapper .thim-countdown .counter-group .counter-block .counter-caption {
+        font-size: 16px;
+    }
+    .event-single-content .comingsoon-wrapper .thim-countdown .counter-group .counter-block {
+        width: 140px;
+    }
+    .event-single-content .comingsoon-wrapper .thim-countdown .counter-group .counter-block:before {
+        width: 100px;
+        height: 100px;
+    }
+	.sc-quote.style-02 .title::before {
+		display: none;
+	}	
+	.delayedPopupWindow {
+		width: 310px !important;
+	}
+	#rev_slider_5_1 .zeus.tparrows::before {
+		font-size: 20px;
+		line-height: 35px;
+	}
+	.tparrows {	
+		width: 20px !important;
+		height: 20px !important; 		
+	}
+	.h4-group-check-room .sc-travel.style-01 .item, .sc-tourist.style-01 .item, .sc-group-iconbox .box-item {	
+		padding-bottom: 10px;	
+	}
+}
+
+
+@media (max-width: 320px) {
+    .comingsoon-wrapper .thim-countdown .counter-group .counter-block {
+        margin: 0 -5px 15px;
+    }
+    .filter-events .nav-tabs a {
+        margin: 0 15px 20px;
+    }
+	.sc-gallery.style-01 .item .btn-gallery {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	filter: grayscale(100%);
+	margin-left: 0px;
+	}
+}
+
